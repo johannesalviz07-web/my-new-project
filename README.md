@@ -1,53 +1,98 @@
-# my-new-project
-Building AI course project
-<!-- This is the markdown template for the final project of the Building AI course, 
-created by Reaktor Innovations and University of Helsinki. 
-Copy the template, paste it to your GitHub README and edit! -->
-# Project Title
-Final project for the Building AI course
-## Summary
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
-## Background
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
-## How is it used?
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-   totPop = sum(pop)
-   totFish = sum(fishers)
-   # write your solution here
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-main()
-```
-## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
-## Challenges
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
-## What next?
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
-## Acknowledgments
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+Project Title
+
+SmartServe AI: Intelligent Restaurant Order Management System
+
+Summary
+
+SmartServe AI is an artificial intelligence system designed to help restaurants manage customer orders, predict food demand, and reduce waiting times. It improves restaurant efficiency by organizing orders and helping staff provide faster customer service.
+
+Background
+
+Many restaurants experience problems when receiving too many customer orders, especially during lunch, dinner, weekends, and holidays. These situations can lead to delayed orders, incorrect transactions, and dissatisfied customers.
+
+SmartServe AI aims to solve these problems by using artificial intelligence to organize restaurant operations and improve customer satisfaction.
+
+The main problems this project addresses are:
+
+* Too many customer orders during peak hours.
+* Long waiting times for customers.
+* Incorrect or missed food orders.
+* Difficulty predicting the amount of food needed.
+* Poor coordination between kitchen staff and service personnel.
+
+My personal motivation for this project comes from my interest in Hospitality Management and restaurant operations. I believe AI technology can help restaurants become more organized, efficient, and customer-friendly.
+
+How is it used?
+
+SmartServe AI can be used in restaurants, cafés, fast-food establishments, and other food-service businesses.
+
+The system works through the following process:
+
+1. Customer Ordering: Customers place their orders using a digital ordering system.
+2. Order Recording: The AI system automatically records and organizes incoming orders.
+3. Order Prioritization: The system helps organize orders based on their arrival time and preparation requirements.
+4. Kitchen Notification: Kitchen staff receive the order details through a digital display.
+5. Demand Prediction: AI analyzes previous sales to estimate which food products will be in demand.
+6. Order Completion: Staff update the order status once the food is ready.
+
+The main users are restaurant owners, managers, kitchen staff, cashiers, and customers.
+
+Data Sources and AI Methods
+
+The project will use different types of data to train and develop the AI system.
+
+Data Sources:
+
+* Restaurant sales records.
+* Previous customer orders.
+* Food menu and product information.
+* Order preparation times.
+* Customer order frequency.
+* Sample or simulated restaurant datasets.
+
+AI Methods:
+
+1. Machine Learning: Used to analyze previous restaurant transactions and identify ordering patterns.
+2. Classification: Used to categorize orders based on food types and preparation requirements.
+3. Predictive Analytics: Used to predict customer demand during busy hours.
+4. Data Analysis: Used to evaluate restaurant sales and identify popular menu items.
+
+These AI methods can help restaurant managers make better decisions and improve daily operations.
+
+Challenges
+
+Although SmartServe AI can improve restaurant operations, it also has limitations.
+
+* The system requires accurate and updated restaurant data.
+* Incorrect data may result in inaccurate predictions.
+* Small restaurants may have difficulty purchasing the necessary technology.
+* Internet or system interruptions may affect operations.
+* Customer information must be protected to maintain privacy.
+
+The system should assist restaurant employees rather than completely replace human workers. Restaurant staff should still check orders and make final decisions when necessary.
+
+What Next?
+
+In the future, SmartServe AI can be improved by adding more advanced features, such as:
+
+* Online food ordering and payment.
+* QR code ordering for customers.
+* Automatic inventory monitoring.
+* AI-powered customer recommendations.
+* Real-time order tracking.
+* Integration with restaurant Point-of-Sale (POS) systems.
+
+To develop this project further, I would need programming skills, knowledge of machine learning, database management, and assistance from experienced AI developers.
+
+My goal is to develop a reliable AI system that can help restaurants reduce operational problems and improve the overall dining experience.
+
+Acknowledgments
+
+* Building AI Course by Reaktor Innovations and the University of Helsinki.
+* University of Helsinki – Elements of AI learning resources.
+* Inspiration from modern restaurant ordering and management systems.
+* Open-source machine learning and data analysis resources.
+
+Project Developer: Johannes Alviz
+
+Project Category: Artificial Intelligence in Hospitality Management
